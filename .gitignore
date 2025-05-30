@@ -1,0 +1,13 @@
+.terraform/
+# Local .terraform directory
+.terraform.lock.hcl
+# Local state file
+.terraform.tfstate
+.terraform.tfstate.backup
+# Backup state file
+# Ignore any .tfvars files
+*.tfvars
+# Ignore any .tfvars.json files
+*.tfvars.json
+# Ignore any .tfstate files
+*.tfstate
